@@ -1,5 +1,6 @@
 local.settings.json
 
+```json
 {
   "IsEncrypted": false,
   "Values": {
@@ -11,3 +12,4 @@ local.settings.json
     "DeadLetterQueueName": "mentoring-queue/$deadletterqueue"
   }
 }
+```

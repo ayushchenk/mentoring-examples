@@ -9,7 +9,10 @@ local.settings.json
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
     "QueueConnectionString": "<connection string value WIHTOUT EntityPath>",
     "QueueName": "mentoring-queue",
-    "DeadLetterQueueName": "mentoring-queue/$deadletterqueue"
+    "DeadLetterQueueName": "mentoring-queue/$deadletterqueue",
+    "AppUserClientId": "<ENTRA App Id>",
+    "AppUserClientSecret": "<Client Secret>",
+    "EnvironmentUrl": "<dataverse instance url>"
   }
 }
 ```
